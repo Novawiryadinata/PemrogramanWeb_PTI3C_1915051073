@@ -1,0 +1,189 @@
+table{
+    border-collapse: collapse;
+}
+
+body{
+    font: 16px arial;
+    background-color: #b7f3b7;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: -10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.header .inilogo{
+    height: 50px;
+    width: 50px;
+    background: url(../img/cobalogo.png);
+    background-size: cover;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-family:poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #016b6b;
+    margin-bottom: -20px;
+}
+
+/* penanggalan */
+.calendar{
+    margin-left: 40px;
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/calendar.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.date{
+    font-size: 14px;
+    font-weight: bold;
+    color: #016b6b;
+    display: inline-block;
+    margin-bottom: -20px;
+}
+
+.conten{
+    padding: 0px 20px;
+    border-top: 5px solid #016b6b;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #016b6b;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    /* padding: auto; */
+    /* margin: auto; */
+    color: #016b6b;
+    /* border-bottom: 3px solid #016b6b; */
+}
+
+
+/* new data */
+.newdata {
+    background-color: #eeeeee;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: 5px solid #016b6b;
+}
+
+.newdata h3{
+    margin-top: -10px;
+}
+
+.save{
+    background-color: rgb(211, 211, 211);
+    border-radius: 3px;
+    border: none;
+    padding:10px;
+    /* transition: 0s ; */
+}
+
+.save:hover{
+    background-color:#016b6b;
+    color: white;
+    /* transition-delay: 0.5s; */
+}
+
+.tablenewdata td{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.tablenewdata td input{
+    border: none;
+    margin: 10px;
+    padding:10px;
+}
+
+.tablenewdata td select{
+    border: none;
+    margin: 10px;
+    padding:10px;
+}
+
+
+/* students data */
+.studentsdata {
+    margin-top: 30px;
+    background-color: #eeeeee;
+    padding: 30px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-left: 5px solid #016b6b;
+}
+
+.studentsdata h3{
+    margin-top: -10px;
+}
+
+.studentsdata td{
+    padding: 4px;
+    
+}
+
+.studentsdata .segmen{
+    font-weight: bold;
+    background-color: #d3d3d3;
+    
+}
+
+.tablestudentsdata{
+    width: 90%;
+    margin: auto;
+}
+
+.OkeRemidial{
+    
+    background-color: #b7f3b7;
+    border-radius: 4px;
+    
+}
+
+.hapus a{
+
+    background-color: #b7f3b7;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #016b6b;
+}
+
+
+.footer{
+    background-color: #016b6b;
+    padding: 3px;
+    margin-top:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.footer .copy{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+
+}
